@@ -1,0 +1,34 @@
+body {
+    background-color: pink;
+    color: white;
+}
+
+img {
+    border: 3px solid black;
+    box-shadow: 3px 3px 5px black;
+    transition: ease-in-out 500ms;
+}
+img:hover {
+    border: 3px solid yellow;
+
+    box-shadow: 3px 3px 5px RED;
+    transform: scale(110%);
+}
+
+div {
+    background-color: red;
+    display: flex;
+}
+
+aside {
+    flex-basis: 10px;
+}
+
+h2 {
+    transform: rotate(90deg);
+    letter-spacing: 15;
+    /* outline: 1px solid yellow; */
+    /* height: 10px; */
+ 
+    
+}

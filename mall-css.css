@@ -1,0 +1,145 @@
+:root {
+    --aside-width: 15%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    /* height:100%; */
+}
+
+img {
+    max-width: 50% !important;
+}
+
+body{
+    margin: 0;
+    display: grid;
+    grid: auto / var(--aside-width) 1fr;
+    font-family: "Comic sans MS"
+}
+
+aside{
+    background-color: lightsteelblue
+}
+
+.aside_wrapper {
+    position: fixed;
+    /* background-color: red; */
+    width: var(--aside-width);
+}
+
+
+.header {
+    /* background-color: red; */
+    padding: 5em 0;
+}
+
+.header_logo {
+    /* background-color:greenyellow; */
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius:50%;
+    background-image: url("https://www.gp.se/image/policy:1.59617064:1637576830/8QAWkr8pGzcYlOMyHf-sWqlnbc4.jpg?f=Tall&w=960&$p$f$w=c8beae0");
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.header_title {
+    /* background-color: aqua; */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 64px;
+}
+
+nav {
+}
+
+.nav_links { 
+    list-style:none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.nav_links {
+    text-align: center;
+}
+.nav_links + * {
+    padding-top: 2em;
+    position: relative;
+}
+
+.nav_links + *::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    top: 1em;
+    left: 0;
+    transform: translateX(50%);
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Concert One', sans-serif;
+    font-size: 50px;
+}
+
+
+.main_heading { 
+    font-size: 96px;
+    text-align: center
+}
+
+.main_text  {
+    font-size: 24px;
+
+}
+
+.main_heading--center {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main_heading--center {
+    padding: 4em;
+    gap: 4em;
+    display: flex;
+}
+
+.main_content > * { 
+    flex:1 1 0;
+}
+
+.main__wrapper {
+    display: flex;
+    /* background-color: red; */
+}
+
+.main__wrapper > * {
+    flex: 1 1 0;
+}
+.main_frame {
+    display: flex;
+    background-color: darkgray;
+    padding: 5em;
+    gap: 5em;
+}
+
+.main_frame > * {
+    flex: 1 1 0;
+    
+}
+.main_frame img {
+    width: calc((100% / 3) - 4em)
+
+}
