@@ -1,6 +1,6 @@
 body {
-    background-color: pink;
-    color: white;
+    background-color: black;
+    color: black;
 }
 
 img {
@@ -11,12 +11,12 @@ img {
 img:hover {
     border: 3px solid yellow;
 
-    box-shadow: 3px 3px 5px RED;
+    box-shadow: 3px 3px 5px green;
     transform: scale(110%);
 }
 
 div {
-    background-color: red;
+    background-color: green;
     display: flex;
 }
 
