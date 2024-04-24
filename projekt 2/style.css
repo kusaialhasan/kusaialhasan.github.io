@@ -1,0 +1,37 @@
+.Rad1, .Rad2, .Rad3, .Rad4{
+    padding-left:400px; 
+}
+
+img {
+    border-radius: 20px;
+    margin-right: 350px;
+    margin-bottom:200px;
+}
+
+.Text{
+    text-align: center;
+    font-size: 36px;
+}
+
+.sökruta{
+    text-align: center;
+    size: 200%;
+}
+
+/* ul */
+.nav{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px
+    
+}
+
+
+/* li */
+.navlink {
+    background-color: lightgreen
+}
